@@ -1,0 +1,45 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+}
+#body{
+    background-color: white;
+}
+p{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40;
+
+}
+.p{
+    color: white;
+}
+
+#container{
+    background-color: black;
+}
+#color{
+    color:white;
+}
+#change{
+    position: absolute;
+    top:65%;
+    left:45%;
+}
+
+.btn{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 3px 3px 3px 3px;
+}
+.btn:hover {
+    background-color: Ivory; /* Green */
+    color: black;
+}
